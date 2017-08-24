@@ -1,1 +1,2 @@
-print 'Hello world'//test
+print 'Hello world'
+understand
