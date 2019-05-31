@@ -20,7 +20,7 @@ def PrintM(G, M):
         print("  ")
 
 
-def Ford_FulkeRCon(G, S_name, T_name):
+def Ford_Fulkerson(G, S_name, T_name):
     # Initialization
     S = G.GetVertex(S_name)
     T = G.GetVertex(T_name)
@@ -100,6 +100,6 @@ if __name__ == "__main__":
     G.AddEdge('A', 'B', 5); G.AddEdge('A', 'T', 2)
     G.AddEdge('B', 'T', 3)
 
-    Flow = Ford_FulkeRCon(G, 'S', 'T')
+    Flow = Ford_Fulkerson(G, 'S', 'T')
 
 
